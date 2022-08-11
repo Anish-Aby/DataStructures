@@ -23,5 +23,9 @@ public class Main {
         list.insertAtStart(69);
         System.out.println("Check if insertAtStart worked by peeking at 0: " + list.peekAt(0));
         System.out.println(list.size());
+        System.out.println("Deleting value 2 at index 1.");
+        list.deleteByValue(2);
+        System.out.println("checking if it is deleted " + list.peekAt(2));
+        System.out.println("check the size. " + list.size());
     }
 }

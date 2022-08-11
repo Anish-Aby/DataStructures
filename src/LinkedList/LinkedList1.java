@@ -74,6 +74,43 @@ public class LinkedList1 {
         }
     }
 
+    public int deleteByValue(int value){
+        Node tempPtr = head;
+        Node trailingPtr = head;
+        int result = 0;
+        for(int i = 0; i < size; i++){
+            if(tempPtr.getValue() == value){
+                if(tempPtr == head){
+                    head = tempPtr.getNext();
+                    result = tempPtr.getValue();
+                    //size -= 1;
+                }
+                else if(tempPtr == tail){
+                    Node ptr = head;
+                    for(int j = 0; j < size-1; j++){
+                        ptr = ptr.getNext();
+                    }
+                    tail = ptr;
+                    ptr.setNext(null);
+                    result = tempPtr.getValue();
+                    //size -= 1;
+                }
+                else {
+                    for(int y = 1; y < i; y++){
+                        trailingPtr = trailingPtr.getNext();
+                    }
+                    trailingPtr.setNext(tempPtr.getNext());
+                    result = tempPtr.getValue();
+                    //size -= 1;
+                }
+            }
+            else
+            tempPtr = tempPtr.getNext();
+        }
+        size--;
+        return result;
+    }
+
     public void emptyListAdd(int value){
         Node newNode = new Node();
         head = newNode;

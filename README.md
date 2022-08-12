@@ -10,8 +10,8 @@ If there are any issues, raise an issue and I'll look into it as soo as I can.
 
 ## Contents
 ### Data Structures implemented:
-1. LinkedList Package
-2. CircularlyLinkedList
+1. Singly Linked List 
+2. Circularly Linked List
 
 
 ### Packages and classes:
@@ -19,8 +19,18 @@ If there are any issues, raise an issue and I'll look into it as soo as I can.
 
 | Packages   | Classes          |
 | -------- | -------------- |
-| LinkedList | main(), LinkedList1(), Node()|
+| SinglyLinkedList | main(), LinkedList1(), Node()|
 | CircularlyLinkedList |  main(), CircularLinkedList(), Node() |
+
+---
+
+### 1. Linked list:
+Linked list is a data structure that is used to store data of anytype in special **_nodes_**. These nodes contain 2 attributes/feilds:
+1. Data (The value we want to store)
+2. Next (the address of the next node)
+
+(note- You can use any name for the attributes while implimenting this data structure.)
+![This is the pictorial representation of a Single Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200922124319/Singly-Linked-List1.png)
 
 
 ## -- Please note  -- 

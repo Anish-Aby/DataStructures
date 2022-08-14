@@ -11,6 +11,10 @@ public class Node {
         this.next = next;
     }
 
+    Node(int value){
+        this.value = value;
+    }
+
     public int getValue() {return value;}
 
     public Node getNext() {return next;}

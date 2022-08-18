@@ -1,4 +1,4 @@
 package DoublyLinkedList;
 
-public class main {
+public class Main {
 }

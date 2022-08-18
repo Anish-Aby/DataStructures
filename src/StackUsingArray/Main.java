@@ -1,6 +1,6 @@
 package StackUsingArray;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Stack myStack = new Stack();
         System.out.println("Size at start: " + myStack.size());

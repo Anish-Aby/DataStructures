@@ -105,7 +105,22 @@ Here is a pictorial representation of stacks:
 <img src = "https://www.callicoder.com/static/b55c9fdd2a75568271a20da5f0ec675f/d22c2/java-stack-data-structure.jpg" width = "500" height="200" />
 
 ##### Please check the code for understanding the working of the implementation.
+---
+### 5.Queue:
+**Queue** is a data structure that stores data in a **_FIFO_** **(First In First Out)** fashion. You can imagine a real life queue as an example. Imagine you want to buy some food at macDonanlds. You go to the counter and stand in a queue and the customers get served one by one. Its the same principle here too.
+Queues can be implemented with the help of *arrays* or *linked lists*.
+Queues can support the following operations:
+* getSize() ---> returns the size of the queue.
+* enqueue(datatype data) ---> for entering a data.
+* dequeue() ---> for removing the data that was in the queue the longest.
+* peek() ---> Returns the element which was there the longest in the queue without popping it.
+* show() ---> prints all the elements of the queue.
 
+Heres a pictorial representation of a queue data structure: 
+
+<img src = "https://www.tutorialandexample.com/wp-content/uploads/2020/05/Queue-in-DS-1.jpg" width = "500" height = "200" />
+
+##### Please check the code for understanding the working of the implementation.
 
 ---
 ## -- Please note  -- 

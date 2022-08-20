@@ -1,6 +1,6 @@
 package StackUsingLinkedList;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         LinkedList myList = new LinkedList();
         System.out.println("Size before pushing: " + myList.getSize());

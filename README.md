@@ -1,6 +1,7 @@
 #                                           **Data Structure Using Java**☕
 
 ### Welcome to my data structures repo!🌠
+<img src = "https://i.pinimg.com/originals/81/52/58/81525851413fac11dca44e57076b396a.gif" width="300" height="200" />
 *This repo contains the implementations in **Java** for basic data structures.*
 Feel free to fork this repo or use it for your projects or for studies! :)
 If there are any issues, raise an issue and I'll look into it as soo as I can.
@@ -9,25 +10,30 @@ If there are any issues, raise an issue and I'll look into it as soo as I can.
 
 
 ## Contents
-### Data Structures implemented:
+### Data Structures implemented:📚
 1. Singly Linked List 
 2. Circularly Singly Linked List
 3. Doubly Linked List
 4. Stacks 
     * Using arrays,
     * Using Linked List.
+5. Queues
+   * Using arrays,
+   * Using Linked lists.
 
 
-### Packages and classes:
+### Packages and classes:🗃
   
 
 | Packages   | Classes          |
 | -------- | -------------- |
-| SinglyLinkedList | main(), LinkedList1(), Node()|
-| CircularlySinglyLinkedList |  main(), CircularLinkedList(), Node() |
-| DoublyLinkedList | main(), DoublyLinkedList(), Node() |
-| StackUsingArray | main(), Stack() |
-| StackUsingLinkedList | main(), LinkedList(), Java() |
+| SinglyLinkedList | Main(), LinkedList1(), Node()|
+| CircularlySinglyLinkedList |  Main(), CircularLinkedList(), Node() |
+| DoublyLinkedList | Main(), DoublyLinkedList(), Node() |
+| StackUsingArray | Main(), Stack() |
+| StackUsingLinkedList | Main(), LinkedList(), Java() |
+| QueueUsingArray | Main(), Array |
+| QueueUsingLinkedList | Main(), Node(), Linked List() |
 
 ---
 

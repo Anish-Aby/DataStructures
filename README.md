@@ -2,7 +2,8 @@
 
 ### Welcome to my data structures repo!🌠
 <img src = "https://i.pinimg.com/originals/81/52/58/81525851413fac11dca44e57076b396a.gif" width="300" height="200" />
-*This repo contains the implementations in **Java** for basic data structures.*
+
+This repo contains the implementations in **Java** for basic data structures.
 Feel free to fork this repo or use it for your projects or for studies! :)
 If there are any issues, raise an issue and I'll look into it as soo as I can.
 

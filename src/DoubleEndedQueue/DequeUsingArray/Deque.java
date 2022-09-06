@@ -2,7 +2,7 @@ package DoubleEndedQueue.DequeUsingArray;
 
 import DoubleEndedQueue.DequeIF;
 
- public class Deque <T> {
+abstract public class Deque <T> implements DequeIF<T> {
     private int size = 0;
     private int head = 0;
     private int tail = 0;

@@ -1,4 +1,4 @@
-package QueueUsingArray;
+package queueUsingArray;
 
 public class Array {
     private int data;

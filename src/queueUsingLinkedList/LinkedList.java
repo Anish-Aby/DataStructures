@@ -1,4 +1,4 @@
-package QueueUsingLinkedList;
+package queueUsingLinkedList;
 
 public class LinkedList {
     private Node head = null;

@@ -1,4 +1,4 @@
-package DoubleEndedQueue.DequeUsingArray;
+package doubleEndedQueue.DequeUsingArray;
 
 public class Main {
     public static void main(String[] args) {

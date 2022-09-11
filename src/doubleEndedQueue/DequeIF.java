@@ -1,4 +1,4 @@
-package DoubleEndedQueue;
+package doubleEndedQueue;
 
 /* Interface for implementing all the methods
 * that are used in a Deque.

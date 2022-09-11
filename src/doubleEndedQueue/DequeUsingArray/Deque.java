@@ -1,8 +1,6 @@
-package DoubleEndedQueue.DequeUsingArray;
+package doubleEndedQueue.DequeUsingArray;
 
-import DoubleEndedQueue.DequeIF;
-
- public class Deque <T> {
+public class Deque <T> {
     private int size = 0;
     private int head = 0;
     private int tail = 0;

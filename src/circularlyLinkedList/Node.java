@@ -1,4 +1,4 @@
-package CircularlyLinkedList;
+package circularlyLinkedList;
 
 public class Node {
     private int value;

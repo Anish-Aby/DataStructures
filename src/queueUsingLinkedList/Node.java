@@ -1,4 +1,4 @@
-package QueueUsingLinkedList;
+package queueUsingLinkedList;
 
 public class Node {
     private int data;

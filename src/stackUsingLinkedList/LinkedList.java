@@ -1,4 +1,4 @@
-package StackUsingLinkedList;
+package stackUsingLinkedList;
 
 public class LinkedList {
     private Node top = null;

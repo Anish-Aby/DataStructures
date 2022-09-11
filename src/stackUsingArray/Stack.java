@@ -1,4 +1,4 @@
-package StackUsingArray;
+package stackUsingArray;
 
 public class Stack {
     private static final int arrsize = 20;

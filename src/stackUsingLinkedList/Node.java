@@ -1,4 +1,4 @@
-package StackUsingLinkedList;
+package stackUsingLinkedList;
 
 public class Node {
     private int value;

@@ -1,6 +1,4 @@
-package LinkedList;
-
-import LinkedList.LinkedList1;
+package linkedList;
 
 //public class Main {
 //    public static void main(String[] args) {

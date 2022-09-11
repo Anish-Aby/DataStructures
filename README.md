@@ -12,12 +12,12 @@ If there are any issues, raise an issue and I'll look into it as soo as I can.
 
 ## Contents
 ### Data Structures implemented:📚
-1. Singly Linked List 
-2. Circularly Singly Linked List
-3. Doubly Linked List
+1. Singly Linked list 
+2. Circularly Singly Linked list
+3. Doubly Linked list
 4. Stacks 
     * Using arrays,
-    * Using Linked List.
+    * Using Linked list.
 5. Queues
    * Using arrays,
    * Using Linked lists.
@@ -30,11 +30,11 @@ If there are any issues, raise an issue and I'll look into it as soo as I can.
 | -------- | -------------- |
 | SinglyLinkedList | Main(), LinkedList1(), Node()|
 | CircularlySinglyLinkedList |  Main(), CircularLinkedList(), Node() |
-| DoublyLinkedList | Main(), DoublyLinkedList(), Node() |
-| StackUsingArray | Main(), Stack() |
-| StackUsingLinkedList | Main(), LinkedList(), Java() |
-| QueueUsingArray | Main(), Array |
-| QueueUsingLinkedList | Main(), Node(), Linked List() |
+| doublyLinkedList | Main(), doublyLinkedList(), Node() |
+| stackUsingArray | Main(), Stack() |
+| stackUsingLinkedList | Main(), linkedList(), Java() |
+| queueUsingArray | Main(), Array |
+| queueUsingLinkedList | Main(), Node(), Linked list() |
 
 ---
 
@@ -64,20 +64,20 @@ The *boxes* are the nodes and the *ropes* connecting the boxes are the links.
 
 ---
 
-### 2. Circularly Singly Linked List:
-Circular Singly Linked List is a variation of Linked list in which the first element points to the last element and the last element points to the first element.
-Its the same as Singly Linked List with the only difference being the last node points back to the first node.
+### 2. Circularly Singly Linked list:
+Circular Singly Linked list is a variation of Linked list in which the first element points to the last element and the last element points to the first element.
+Its the same as Singly Linked list with the only difference being the last node points back to the first node.
 My version of the code doesn't require a **head** node. However, I've used the **tail** node that helps me get the last as well as the first nodes value.
 
-Here's a pictorial represantation for Circular Singly Linked List:
+Here's a pictorial represantation for Circular Singly Linked list:
 
 <img src="https://iq.opengenus.org/content/images/2020/05/trial_image.png" width="500" height="200"/>
 
 ##### Check the code files to understand the working
 ---
 
-### 3. Doubly Linked List:
-Java Doubly Linked List is a type of Linked List where each node apart from storing data has two links. The first link points to the previous node and the other link points to the next node of the list. Doubly Linked List, also abbreviated as DLL is much like a Single Linked List.
+### 3. Doubly Linked list:
+Java Doubly Linked list is a type of Linked list where each node apart from storing data has two links. The first link points to the previous node and the other link points to the next node of the list. Doubly Linked list, also abbreviated as DLL is much like a Single Linked list.
 In this data structure, we make use of 2 empty nodes:
 * Header
 * Trailer
@@ -94,7 +94,7 @@ Here is a pictorial representation of DLL:
 ### 4. Stacks:
 Stacks are data structures that works on the First-In Last-Out principle (FILO). This means that anything that goes in first will come out last. You can take a bucket as an example analogy. Assume you put in items one by one till the bucket is filled. Now when you want to remove the items, you start by removing the top most item in the bucket. The bucket is a stack and the items are the values that you want to store. This data structure can be implemented in two ways.
 * Using Arrays,
-* Using Linked List.
+* Using Linked list.
 
 Both of them have their own pros and cons. Arrays have a faster time complexity but have a fixed size. Meanwhile, linked list has the freedom of increasing its size as its not statically allocated.
 

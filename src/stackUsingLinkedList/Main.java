@@ -1,4 +1,4 @@
-package StackUsingLinkedList;
+package stackUsingLinkedList;
 
 public class Main {
     public static void main(String[] args) {

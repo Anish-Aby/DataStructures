@@ -1,4 +1,4 @@
-#                                           **Data Structure Using *Java* **☕
+#                                           ** Data Structure Using *Java* **☕
 
 ### Welcome to my data structures repo!🌠
 <img src = "https://i.pinimg.com/originals/81/52/58/81525851413fac11dca44e57076b396a.gif" width="300" />
